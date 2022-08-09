@@ -1,29 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>youtube-clone</title>
-</head>
-<body>
+  </head>
+  <body>
     <nav class="navigation">
-        <div>
-            <i class="material-icons">dehaze</i>
-            <img class="logo" src="Assets/logo.png" alt="">
-        </div>
-        <div class="search">
-            <button class="searchBtn">
-                <i class="material-icons">search</i>
-            </button>
-            <input class="searchInput" type="text" />
-          </div>
+      <div>
+        <i class="search-icon material-icons">dehaze</i>
+        <img class="logo" src="Assets/logo.png" alt="" />
+      </div>
+      <div class="search">
+        <button class="searchBtn">
+          <i class="material-icons">search</i>
+        </button>
+        <input class="searchInput" type="text" />
+      </div>
     </nav>
     <div class="mainContainer">
-        <div class="videoPlayer"></div>
-        <div class="sideList"></div>
+      <div class="videoPlayer">
+        <iframe
+          class="video"
+          src="https://www.youtube.com/embed/y2ECgOhoDGs"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <h2 class="vidTitle">Synthwave Cyberpunk Mixtape | Volume One</h2>
+        <div class="website-counter">views</div>
+        <div class="description">
+          <img class="descLogo" src="Assets/channels4_profile.jpg" alt="" />
+          <div class="artistInfo">
+            <span class="artistName">MrSuicideSheep</span>
+            <span>12.8M subscribers</span>
+            <br />
+            <span
+              >Synthwave Cyberpunk Playlist on Spotify:
+              https://mrsuicidesheep.com/synthwave</span
+            >
+            <br />
+            <span>
+              <span> Mixed by Rogue VHS </span><br />
+              <a href="https://rogue-vhs.com">https://rogue-vhs.com</a> <br />
+              <a href="https://roguevhs.bandcamp.com/album/i-am-rogue-vhs-2"
+                >https://roguevhs.bandcamp.com/album/i-am-rogue-vhs-2</a
+              >
+              <br />
+              <span
+                >Spotify:
+                <a href="https://open.spotify.com/artist/55DhV9I8VahoWvpa3QMPP5"
+                  >https://open.spotify.com/artist/55DhV9I8VahoWvpa3QMPP5</a
+                >
+              </span>
+              <br />
+              <br />
+              <span>Original Art and Animation by Kryssalian</span> <br />
+              <a href="https://kryssalian.carrd.co"
+                >https://kryssalian.carrd.co</a
+              >
+              <br />
+            </span>
+
+            <span id="box" class="trackList">
+              - Tracklist - <br />
+              <span
+                >01 | <a href="/watch?v=y2ECgOhoDGs&t=0s">00:00</a> Kalax - The
+                Mountain Peak (From Road 96)</span
+              >
+              <br />
+              <span
+                >02 | <a href="/watch?v=y2ECgOhoDGs&t=182s">03:02</a> De Lorra -
+                DISSONANCE</span
+              >
+              <br />
+              <span
+                >03 | <a href="/watch?v=y2ECgOhoDGs&t=416s">06:56</a> Rogue VHS
+                - Souls Depart</span
+              > <br>
+              <span> 04 | <a href="/watch?v=y2ECgOhoDGs&t=650s">10:50</a> Daniel Adam - The Rain </span> <br>
+              <span> 05 | <a href="/watch?v=y2ECgOhoDGs&t=889s">14:49</a> LukHash - Impact Event </span> <br>
+              <span> 06 | <a href="/watch?v=y2ECgOhoDGs&t=1107s">18:27</a> Waveshaper - Fight Against Time </span> <br>
+              <span> 07 | <a href="/watch?v=y2ECgOhoDGs&t=1363s">22:43</a> Rogue VHS & Tima - Dust + Stars Tima </span> <br>
+              <span>08 | <a href="/watch?v=y2ECgOhoDGs&t=1592s">26:32</a> Droid Bishop - Electric City</span> <br>
+              <span>09 | <a href="/watch?v=y2ECgOhoDGs&t=1816s">30:16</a> Forhill - Iridescent</span> <br>
+              <span> 10 | <a href="/watch?v=y2ECgOhoDGs&t=1990s">33:10</a> Lucy in Disguise - Distant Past </span> <br>
+              <span>11 | <a href="/watch?v=y2ECgOhoDGs&t=2244s">37:24</a> Melezz - Another Life</span> <br>
+              <span> 12 | <a href="/watch?v=y2ECgOhoDGs&t=2542s">42:22</a> Winston + Saint Seduce - Sedna Winston </span> <br>
+              <span> 13 | <a href="/watch?v=y2ECgOhoDGs&t=2793s">46:33</a> Wice - Melancholy </span> <br>
+              <span>
+                14 | <a href="/watch?v=y2ECgOhoDGs&t=3054s">50:54</a> Timecop1983 & Josh Dally - One Night Timecop1983
+              </span> <br>
+              <span> 15 | <a href="/watch?v=y2ECgOhoDGs&t=3233s">53:53</a> Cassetter - Neon Towers </span> <br>
+              <span>16 | <a href="/watch?v=y2ECgOhoDGs&t=3431s">57:11</a> JNATHYN - Rise</span> <br>
+              <span>17 | <a href="/watch?v=y2ECgOhoDGs&t=3612s">1:00:12</a> Nina - Beyond Memory</span> <br>
+              <span> 18 | <a href="/watch?v=y2ECgOhoDGs&t=3808s">1:03:28</a> Alpha Room - Come Back </span> <br>
+              <span> 19 | <a href="/watch?v=y2ECgOhoDGs&t=3998s">1:06:38</a> Mitch Murder - After Hours </span> <br>
+              <span>
+                20 | <a href="/watch?v=y2ECgOhoDGs&t=4207s">1:10:07</a> Isidor & Andy Gillion - Superhuman Isidor
+              </span> <br>
+              <span>
+                21 | <a href="/watch?v=y2ECgOhoDGs&t=4408s">1:13:28</a> Downtown Binary & Zane Alexander - Orbit
+              </span> <br>
+              <span> 22 | <a href="/watch?v=y2ECgOhoDGs&t=4683s">1:18:03</a> Dark Smoke Signal - Thunder Road </span> <br>
+              <span> 23 | <a href="/watch?v=y2ECgOhoDGs&t=4946s">1:22:26</a> Rogue VHS - Planet Killer </span> <br>
+              <span> 24 | <a href="/watch?v=y2ECgOhoDGs&t=5317s">1:28:37</a> MALO - La Dune Suffermore </span> <br>
+              <span> 25 | <a href="/watch?v=y2ECgOhoDGs&t=5523s">1:32:10</a> Turbo Knight - Rasengan </span> <br>
+              <span> 26 | <a href="/watch?v=y2ECgOhoDGs&t=5828s">1:37:08</a> Timecop1983 - On The Run </span> <br>
+              <span> 27 | <a href="/watch?v=y2ECgOhoDGs&t=6121s">1:42:01</a> Rogue VHS - Unique by Design </span> <br>
+              <span>28 | <a href="/watch?v=y2ECgOhoDGs&t=6365s">1:46:05</a> VIQ - Vestige</span> <br>
+              <span> 29 | <a href="/watch?v=y2ECgOhoDGs&t=6526s">1:48:46</a> NiElsir - Akrasia </span> <br>
+              <span>30 | <a href="/watch?v=y2ECgOhoDGs&t=6905s">1:55:05</a> DavZ & Brinch - Road of Embers DavZ</span> <br>
+              <span> 31 | <a href="/watch?v=y2ECgOhoDGs&t=7222s">2:00:22</a> Jordan F - Memory Collision </span> <br>
+            </span> <br>
+            <button id="btn" class="descBTN">SHOW MORE</button>
+          </div>
+        </div>
+      </div>
+      <div class="sideList">
+        <img src="Assets\thumbnail1.jpg" alt="" class="option" />
+        <img src="Assets/thumbnail2.jpg" alt="" class="option" />
+        <img src="Assets/thumbnail3.jpg" alt="" class="option" />
+        <img src="Assets/thumbnail4.jpg" alt="" class="option" />
+        <img src="Assets/thumbnail5.jpg" alt="" class="option" />
+        <img src="Assets/thumbnail6.jpg" alt="" class="option" />
+      </div>
     </div>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
